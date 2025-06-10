@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
+}
+
+/* Headings */
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+td {
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+}
+
+/* Form Styles */
+form {
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 6px;
+    color: #bbbbbb;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 18px;
+    background-color: #ffffff;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 0;
+    border: 1px solid #333;
+}
+
+/* Link Styles */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px dashed #ffffff;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+a:hover {
+    color: #bbbbbb;
+    border-color: #bbbbbb;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th, td {
+        box-sizing: border-box;
+        padding: 12px;
+        width: 100%;
+    }
+
+    th {
+        background-color: #2c2c2c;
+        color: #ffffff;
+    }
+
+    td {
+        background-color: #1a1a1a;
+        color: #dcdcdc;
+    }
+}
